@@ -1,0 +1,85 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+header, section, footer, aside, nav {
+	display: block;
+}
+
+body {
+	text-align: center;
+}
+
+
+#agrupar {
+    color: white;
+    width: 1090px;
+    margin: 5px auto;
+    text-align: left;
+    background-image: url('../Imagenes/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#cabeza {
+    /* Color de fondo */
+    background-color: white;
+    /* Pinta una línea (borde) en la parte superior e inferior de la cabeza de página */
+    border-top: 6px solid #48D1CC;
+    border-bottom: 6px solid #48D1CC;
+    /* línea personalizada LB */
+    border-left: 6px solid #48D1CC;
+    border-right: 6px solid #48D1CC;
+    /* Despliega como bloque */
+    display: block;
+    /* Define alto en la cabeza */
+    height: 150px;
+    
+}
+
+#fondoC {
+display: block;
+float: left;
+margin: 2px;
+
+
+}
+#formato {
+    color: black;
+    text-align: center;
+}
+
+
+#menu
+{
+	margin: 0px auto;
+	padding: 0px;
+   
+}
+
+#seccion
+{
+	float: left;
+	width: 640px;
+	margin: 20px;
+}
+
+#columna 
+{
+	color: black;
+	float: left;
+	width: 220px;
+	margin: 20px 0px;
+	padding: 20px;
+	background: black;
+	text-align: justify;
+}
+
+#pie
+{
+	clear: both;
+	text-align: center;
+	padding: 20px;
+	border-top: 2px solid #999999;
+}

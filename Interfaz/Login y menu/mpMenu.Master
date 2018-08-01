@@ -1,0 +1,55 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="mpMenu.master.cs" Inherits="Control_de_viaticos.mpMenu" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+     <link href="../Estilos/menu.css" rel="stylesheet" />
+    <link href="../Estilos/FrontEnd.css" rel="stylesheet" />
+   
+    <style type="text/css">
+        .auto-style3 {
+            height: 146px;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+</head>
+<body id="agrupar">
+    <form id="form1" runat="server">
+   <header id="cabeza">
+
+	<img  id = "fondoC" src="../Imagenes/logo.png" / width="1075px" height="146px">
+       
+	
+       
+     
+</header>
+
+<nav id="menu">
+	<ul>
+		<li id="mn1" runat="server"><a href="../Formularios%20de%20solicitud%20de%20viaticos/wbsOpcionesSolicitudViaticos.aspx">Solicitud de viaticos</a></li>
+		<li id="mn2" runat="server"> <a href="../Formularios%20de%20seguridad/wbsOpcionesSeguridad.aspx">Seguridad</a></li>
+		<li id="mn3" runat="server"><a href="../Formularios%20de%20orden%20de%20viaticos/wbsOpcionesOrdenViaticos.aspx">Orden de viaticos</a></li>
+		<li id="mn4" runat="server"><a href="../Formularios%20de%20reportes/wbsOpcionesReporte.aspx">Reportes</a></li>
+		<li id="mn5" runat="server"><a href="../Formularios%20de%20liquidacion%20de%20viaticos/wbsOpcionesLiquidacionViaticos.aspx">Liquidacion</a></li>
+	    <li id="mn6" runat="server"><a href="../Formularios%20de%20parametrizaciones/wbsOpcionesParametrizacion.aspx">Parametrizacion</a></li> 
+		<li id="mn7" runat="server"><a href="../Login%20y%20menu/wbsLogin.aspx">Cerrar sesion</a></li>
+
+	</ul>
+     <div align="right"> </div>
+</nav>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+      
+           
+        </asp:ContentPlaceHolder>
+ 
+
+ 
+    </form>
+</body>
+</html>
+  

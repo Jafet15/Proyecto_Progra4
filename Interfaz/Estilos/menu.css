@@ -1,0 +1,135 @@
+#menu ul 
+{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+#menu li
+{
+	float: left;
+	list-style: none;
+	padding: 5px;
+	text-align: center;
+	font: bold 14px verdana, sans-serif;
+    background: #173240;
+}
+
+#menu a
+{
+	font-family: Calibri;
+	text-decoration: none;
+	display: block;
+	color: white;
+    background: #173240;
+}
+
+#mn1
+{
+	float: left;
+	list-style: none;
+	padding: 5px;
+    width: 160px;
+	text-align: center;
+	font: bold 14px verdana, sans-serif;
+    
+	background-color: #000000;
+	color: #B6EFED;
+	border: 1px solid #000000;
+
+	-moz-border-radius: 0px 0px 0px 20px;
+	-webkit-border-radius: 0px 0px 0px 20px;
+	border-radius: 0px 0px 0px 20px;
+}
+
+#mn2, #mn3,#mn4,#mn5,#mn6
+{
+	list-style: none;
+	padding: 5px;
+	width: 141px;	
+   
+	text-align: center;
+	font: bold 14px verdana, sans-serif;
+
+	background-color: #696969;
+	color: #B6EFED;
+	border: 1px solid;
+
+}
+
+#mn7
+{
+	float: left;
+	list-style: none;
+	padding: 5px;
+	width: 141px;
+	text-align: center;
+	font: bold 14px verdana, sans-serif;
+
+	background-color: #696969;
+	color: #B6EFED;
+	border: 1px solid;
+
+	-moz-border-radius: 0px 0px 20px 0px;
+	-webkit-border-radius: 0px 0px 20px 0px;
+	border-radius: 0px 0px 20px 0px;
+
+}
+
+#mn1:hover
+{
+	background-color: #012440;
+	color: white;
+	cursor: pointer;
+	-moz-border-radius: 0px 0px 0px 20px;
+	-webkit-border-radius: 0px 0px 0px 20px;
+	border-radius: 0px 0px 0px 20px;
+}
+
+#mn2:hover
+{
+	background-color: #012440;
+	color: white;
+	cursor: pointer;
+}
+
+#mn3:hover
+{
+	background-color: #012440;
+	color: white;
+	cursor: pointer;
+}
+#mn4:hover
+{
+	background-color: #012440;
+	color: white;
+	cursor: pointer;
+}
+#mn5:hover
+{
+	background-color: #012440;
+	color: white;
+	cursor: pointer;
+}
+#mn6:hover
+{
+	background-color: #012440;
+	color: white;
+	cursor: pointer;
+}
+
+#mn7:hover
+{
+	background-color: #012440;
+	color: white;
+	cursor: pointer;
+	-moz-border-radius: 0px 0px 20px 0px;
+	-webkit-border-radius: 0px 0px 20px 0px;
+	border-radius: 0px 0px 20px 0px;
+
+}
+
+#menu li,button :hover ul
+{
+	display: block;
+}

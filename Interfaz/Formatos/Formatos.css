@@ -1,0 +1,29 @@
+﻿body {
+}
+
+.AlinearHorizontal {
+    float:left
+}
+
+.MargenPequeno {
+    margin-left:-4em;
+    height: 12PX;
+}
+.MargenPequeno2 {
+    margin-left:-7em;
+    height: 12PX;
+}
+.TamanoImagen {
+    width:60px;
+}
+.Margenprecio {
+    margin-left:9em;
+}
+.MargenPequeno3 {
+    margin-left:32em;
+    height: 12PX;
+}
+.MargenPequeno4{
+    margin-left:2em;
+    height: 12PX;
+}

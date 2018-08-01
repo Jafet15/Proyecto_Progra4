@@ -1,0 +1,288 @@
+﻿/*Se eliminan los margenes y cajas en general
+de toda la pagina*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+/*Formato al titulo principal de la pagina*/
+
+h1{
+	/*Color de letra blanco*/
+	color: #F0FFFF;
+	/*se trabaja el elemento como un bloque en linea*/
+	display: inline-block;
+	/*se establece en un margen de 25 pixeles con respecto a la parte superior
+	de la pagina*/
+	margin-top: 25px;
+	/*Se define una posición absoluta*/
+	position: absolute;
+	/*Se define el ancho del elemento con respecto a la pagina*/
+	width: 100%;
+}
+
+h2{
+	/*Color de letra blanco*/
+	color: #F0FFFF;
+	/*se trabaja el elemento como un bloque en linea*/
+	display: inline-block;
+	/*se establece en un margen de 80 pixeles con respecto a la parte superior
+	de la pagina*/
+	margin-top: 90px;
+	/*Se define una posición absoluta*/
+	position: absolute;
+	/*Se define el ancho del elemento con respecto a la pagina*/
+	width: 100%;
+}
+
+/*Formato a los parrafos de la página*/
+p{
+	/*Establece un margen de 85 pixeles a la iz*/
+	margin-left: 10px;
+	/*Lo despliega como bloque en linea*/
+	display: inline-block;
+	/*Define el tipo de letra con arial*/
+	font-family: arial;
+}
+
+/*Da formato a los textos asociados a las cajas de texto
+disponibles en el Inicio de Sesion*/
+
+.lbl{
+	/*Establece un color de fondo Negro*/
+	background-color: #000000;
+	/*Color de letras blanco*/
+	color: #ffffff;
+	/*Establece la letra en negrita*/
+	font-style: bold;
+	/*Define el tamaño de la letra*/
+	font-size: 18px;
+	/*Elimina margenes al lado derecho*/
+	margin-right: 0px;
+	/*Crea una caja interna*/
+	padding: 6px;
+	/*Define el ancho del elemento*/
+	width: 100px;
+
+}
+
+/*Da formato a las cajas de texto*/
+
+.txt{
+	/*Define el color de fondo en celeste*/
+	background-color: #B0C4DE;
+	/*Color de la letra en blanco*/
+	color: #ffffff;
+	/*Establece la altura en pixeles de la caja*/
+	height: 28px;
+	/*Elimina margen izquierdo*/
+	margin-left: 0px;
+}
+
+/*Da formato al boton de autenticar*/
+#btnAutenticar{
+	/*Define color de fondo*/
+	background-color: #008080;
+	/*Redondea la esquina inferior izquiera*/
+	border-radius: 0px 0px 0px 20px;
+	/*Establece el color de la letra*/
+	color: #000000;
+	/*Da la altura del boton*/
+	height: 35px;
+	/*Elimina margenes*/
+	margin: 0px;
+	/*Ancho del elemento*/
+	width: 200px;
+	/*Define el tipo de letra con arial*/
+	font-family: Arial Black;
+	/*Establece la letra en negrita*/
+	font-style: bold;
+	/*Define el tamaño de la letra*/
+	font-size: 16px;
+}
+
+/*Da formato al boton de recuperar clave*/
+#btnRecuperar{
+	/*Define color de fondo*/
+	background-color: #008080;
+	/*Redondea la esquina inferior izquiera*/
+	border-radius: 0px 0px 20px 0px;
+	/*Establece el color de la letra*/
+	color: #000000;
+	/*Da la altura del boton*/
+	height: 35px;
+	/*Elimina margenes*/
+	margin: 0px;
+	/*Ancho del elemento*/
+	width: 200px;
+	/*Define el tipo de letra con arial*/
+	font-family: Arial Black;
+	/*Establece la letra en negrita*/
+	font-style: bold;
+	/*Define el tamaño de la letra*/
+	font-size: 16px;
+}
+
+/*Da formato a la cabeza de la página*/
+#cabeza{
+	/*Establece el color de fondo*/
+	background-color: black;
+	/*Pinta una linea (borde) en la página superior
+	e inferior de la cabeza de página*/
+	border-top: 6px solid #008080;
+	border-bottom: 6px solid #008080;
+	/*Despliega como bloque*/
+	display: block;
+	/*Define alto de la cabeza*/
+	height: 150px;
+	/*Establece la letra en negrita*/
+	font-style: bold;
+	/*Define el tamaño de la letra*/
+	font-size: 18px;
+	
+
+}
+
+/*Se da formato al contenedor de los elementos de clave*/
+#clave{
+	/*Se despliega en bloque*/
+	display: block;
+	/*Color de la letra en blanco*/
+	color: #ffffff;
+	/*Altura en pixeles*/
+	height: 35px;
+	/*magenes - automáticos*/
+	margin-top: 20px;
+	margin-bottom: 50px;
+	/*Ancho en pixeles*/
+	width: 300px;
+
+}
+
+/*Se da formato al contenedor de los elementos de usuario*/
+#usuario{
+	/*Se despliega en bloque*/
+	display: block;
+	/*Color de la letra en blanco*/
+	color: #ffffff;
+	/*Altura en pixeles*/
+	height: 25px;
+	/*magenes - superior> 20 px inferior> 50px */
+	margin-top: 20px;
+	margin-bottom: 50px;
+	/*Ancho en pixeles*/
+	width: 350px;
+
+}
+
+/*Formato al contenedor de los controles*/
+#controles{
+	/*Define imagen de fondo*/
+	background-image: url(fondo1.jpg);
+	/*No repite la imagen de fondo*/
+	background-repeat: no-repeat;
+	/*Redondeo de esquinas superiores*/
+	border-radius: 25px 25px 0px 0px;
+	/*Despliega en bloque*/
+	display: block;
+	/*Altura del contenedor*/
+	height: 180px;
+	/*Transparencia de la imagen 50%*/
+	opacity: 0.6;
+	/*Establece la posición en pantalla*/
+	position: relative;
+	/*Margenes - automáticos*/
+	margin: auto;
+	/*Margen superior*/
+	margin-top: 90px;
+	/*Ancho del elemento*/
+	width: 630px;
+    background:black;
+}
+
+#inicio{
+	/*Despliega en bloque*/
+	display: block;
+	/*Pone el bloque a flotar a partir del ultimo
+	elemento a la izquierda*/
+	float: left;
+	/*Ancho del blque*/
+	width: 400px;
+ 
+}
+
+#informacion{
+	/*Crea un borde al lado izquierdo y lo pinta*/
+	border-left: 6px solid #008B8B;
+	/*Color de letra*/
+	color: #F5FFFA;
+	/*Despliega en bloque*/
+	display: block;
+	/*Tamaño de letra*/
+	font-size: 16px;
+	/*Pone a flotar a la izquierda*/
+	float: left;
+	/*Altura del elemento*/
+	height: 115px;
+	/*Margen superior*/
+	margin-top: 15px;
+	/*Ancho del elemento*/
+	width: 210px;
+	/*Formato del texto - alineación*/
+	text-align: justify-all;
+}
+
+#cuerpo {
+    /*Despliega los tags como un bloque*/
+    display: block;
+    /*Define el tamño del cuerpo de la pagina, en este caso a 
+	ocupar el 100% del tamaño del navegador*/
+    height: 100%; /*Altura*/
+    /*Establece la forma de posicionar los bloques*/
+    position: absolute;
+    width: 100%;
+    background-image: url('../Imagenes/fondo login.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#logo{
+	/*Despliega el icono en bloque*/
+	display: block;
+	/*La imagen se comporta como un bloque flotante a la izquierda*/
+	float: left;
+	/*Establece un margen al logo*/
+	margin: 2px;
+}
+
+#lblUser{
+	border-radius: 500px 0px 0px 0px;
+    
+}
+
+#lblClave{
+	border-radius: 0px 0px 0px 500px;
+}
+
+#opciones{
+	/*Despliega en bloque*/
+	display: block;
+	/*Define altura del elemento*/
+	height: 50px;
+	/*Establece la posición en la pantalla*/
+	position: relative;
+	/*Establece un margen en los 4 lados del elemento*/
+	margin: auto;
+	/*Define el ancho del elemento*/
+	width: 405px;
+
+}
+
+#textoUser{
+	border-radius: 0px 20px 0px 0px;
+}
+
+#textoPass{
+	border-radius: 0px 0px 20px 0px;
+}

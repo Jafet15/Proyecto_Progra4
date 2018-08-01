@@ -1,0 +1,23 @@
+.boton{
+	width:400px;
+	height:43px;
+	margin:0px auto;
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+	border-radius:20px;
+	cursor:pointer;
+    background-color:cornflowerblue;
+    color:white;
+}
+.boton2
+{
+width:400px;
+	height:43px;
+	margin:0px auto;
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+	border-radius:20px;
+	cursor:pointer;
+    background-color:#012440;
+    color:white;
+}
