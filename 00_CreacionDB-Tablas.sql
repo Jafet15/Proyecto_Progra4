@@ -315,3 +315,112 @@ INSERT INTO [dbo].[Estado]
 	(IdEstado,DescEstado) VALUES
 	(1, 'Activado')
 GO
+--provincias--
+INSERT INTO [dbo].[Provincia] (CodProvincia,DescProvincia) values (1,'San jose') 
+INSERT INTO [dbo].[Provincia] (CodProvincia,DescProvincia) values (2,'Alajuela') 
+INSERT INTO [dbo].[Provincia] (CodProvincia,DescProvincia) values (3,'Cartago') 
+INSERT INTO [dbo].[Provincia] (CodProvincia,DescProvincia) values (4,'Guanacaste') 
+INSERT INTO [dbo].[Provincia] (CodProvincia,DescProvincia) values (5,'Heredia') 
+INSERT INTO [dbo].[Provincia] (CodProvincia,DescProvincia) values (6,'Limon') 
+INSERT INTO [dbo].[Provincia] (CodProvincia,DescProvincia) values (7,'Puntarenas') 
+
+GO
+--Cantones de san jose--
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (1,1,'San jose')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (2,1,'Acosta')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (3,1,'Alajuelita')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (4,1,'Aserri')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (5,1,'Curridabat')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (6,1,'Desamparados')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (7,1,'Dota')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (8,1,'Escazu')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (9,1,'Goicoechea')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (10,1,'Leon Cortes')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (11,1,'Montes de Oca')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (12,1,'Mora')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (13,1,'Moravia')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (14,1,'Perez Zeledon')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (15,1,'Puriscal')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (16,1,'Santa Ana')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (17,1,'Tarrazu')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (18,1,'Tibas')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (19,1,'Turrubares')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (20,1,'Vazquez de Coronado')
+
+--Cantones de alajuela--
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (21,2,'Alajuela')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (22,2,'Atenas')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (23,2,'Grecia')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (24,2,'Guatuso')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (25,2,'Los Chiles')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (26,2,'Naranjo')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (27,2,'Orotina')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (28,2,'Palmares')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (29,2,'Poas')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (30,2,'Rio Cuarto')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (31,2,'San Carlos')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (32,2,'San Mateo')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (33,2,'San Ramon')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (34,2,'Upala')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (35,2,'Valverde Vega')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (36,2,'Zalcero')
+
+--Cantones de cartago--
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (37,3,'Cartago')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (38,3,'Alvarado')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (39,3,'El Guarco')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (40,3,'Jimenez')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (41,3,'La Union')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (42,3,'Oreamuno')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (43,3,'Paraiso')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (44,3,'Turrialba')
+
+--Cantones de guanacaste--
+
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (45,4,'Liberia')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (46,4,'Abangares')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (47,4,'Bagaces')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (48,4,'Cañas')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (49,4,'Carrillo')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (50,4,'Hojancha')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (51,4,'La Cruz')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (52,4,'Nandayure')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (53,4,'Nicoya')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (54,4,'Santa Cruz')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (55,4,'Tilaran')
+
+--cantones de heredia--
+
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (56,5,'Heredia')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (57,5,'Barva')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (58,5,'Belen')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (59,5,'Flores')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (60,5,'San Isidro')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (61,5,'San Pablo')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (62,5,'San Rafael')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (63,5,'Santa Barbara')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (64,5,'Santo Domingo')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (65,5,'Sarapiqui')
+
+--cantones de limon--
+
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (66,6,'Limon')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (67,6,'Guacimo')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (68,6,'Matina')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (69,6,'Pococi')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (70,6,'Siquirres')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (71,6,'Talamanca')
+
+--Cantones de puntarenas--
+
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (72,7,'Puntarenas')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (73,7,'Bueno Aires')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (74,7,'Corredores')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (75,7,'Coto Brus')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (76,7,'Esparza')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (77,7,'Garabito')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (78,7,'Golfito')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (79,7,'Montes de Oro')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (80,7,'Osa')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (81,7,'Parrita')
+INSERT INTO [dbo].[Canton] (CodCanton,CodProvincia,DescCanton) values (82,7,'Quepos')
