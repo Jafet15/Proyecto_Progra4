@@ -9,11 +9,13 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        <link href="../Estilos/estilosboton.css" rel="stylesheet" />
+        <link href="../Estilos/estilostxt.css" rel="stylesheet" />
      <div>
         <table style="width: 100%;">
            
            <tr>
-                <td><asp:Button ID="btnVolver" runat="server" Text="Volver" Height="34px" Width="77px" OnClick="btnVolver_Click" />
+                <td><asp:Button ID="btnVolver" runat="server" Text="Volver" Height="34px" Width="77px" OnClick="btnVolver_Click" CssClass="boton" />
                     <h1 align="center">Registro de usuarios</h1>
                </td>
            </tr>
@@ -38,7 +40,7 @@
                          <asp:Label ID="lblNombreUsuario" runat="server" Text="Nombre de usuario"></asp:Label>
                     </p>
                      <p  align="center">
-                         <asp:TextBox ID="txtNombreUsuario" runat="server" ReadOnly="True"></asp:TextBox>
+                         <asp:TextBox ID="txtNombreUsuario" runat="server" ReadOnly="True" CssClass="txtFormulario"></asp:TextBox>
                     </p>
                    
                 </td>
@@ -54,7 +56,7 @@
                          <asp:Label ID="lblContraseña" runat="server" Text="Contraseña"></asp:Label>
                     </p>
                      <p  align="center">
-                         <asp:TextBox ID="txtContraseña" runat="server" ReadOnly="True"></asp:TextBox>
+                         <asp:TextBox ID="txtContraseña" runat="server" ReadOnly="True" CssClass="txtFormulario"></asp:TextBox>
                     </p>
                    
                 </td>
@@ -70,7 +72,7 @@
                          <asp:Label ID="lblRepetirContraseña" runat="server" Text="Repetir contraseña"></asp:Label>
                     </p>
                      <p  align="center">
-                         <asp:TextBox ID="txtRepetirContraseña" runat="server" ReadOnly="True"></asp:TextBox>
+                         <asp:TextBox ID="txtRepetirContraseña" runat="server" ReadOnly="True" CssClass="txtFormulario"></asp:TextBox>
                     </p>
                    
                 </td>
@@ -86,7 +88,7 @@
                          <asp:Label ID="lblRolUsuario" runat="server" Text="Rol de usuario"></asp:Label>
                     </p>
                      <p  align="center">
-                         <asp:DropDownList ID="ddRolUsuario" runat="server" Height="16px" Width="127px"></asp:DropDownList>
+                         <asp:DropDownList ID="ddRolUsuario" runat="server" CssClass="txtFormulario"></asp:DropDownList>
                     </p>
                    
                 </td>
@@ -112,7 +114,7 @@
                          <asp:Label ID="lblNombre" runat="server" Text="Nombre"></asp:Label>
                     </p>
                      <p  align="center">
-                         <asp:TextBox ID="txtNombre" runat="server" ReadOnly="True"></asp:TextBox>
+                         <asp:TextBox ID="txtNombre" runat="server" ReadOnly="True" CssClass="txtFormulario"></asp:TextBox>
                     </p>
                    
                 </td>
@@ -128,7 +130,7 @@
                          <asp:Label ID="lblPrimerApellido" runat="server" Text="Primer apellido"></asp:Label>
                     </p>
                      <p  align="center">
-                         <asp:TextBox ID="txtPrimerApellido" runat="server" ReadOnly="True"></asp:TextBox>
+                         <asp:TextBox ID="txtPrimerApellido" runat="server" ReadOnly="True" CssClass="txtFormulario"></asp:TextBox>
                     </p>
                    
                 </td>
@@ -144,7 +146,7 @@
                          <asp:Label ID="lblSegundoApellido" runat="server" Text="Segundo apellido"></asp:Label>
                     </p>
                      <p  align="center">
-                         <asp:TextBox ID="txtSegundoApellido" runat="server" ReadOnly="True"></asp:TextBox>
+                         <asp:TextBox ID="txtSegundoApellido" runat="server" ReadOnly="True" CssClass="txtFormulario"></asp:TextBox>
                     </p>
                    
                 </td>
@@ -154,7 +156,7 @@
             <tr>
                 <td>     
                  <p align="center">
-                           <asp:Button ID="btnRegistrarUsuario" runat="server" Text="Registrar usuario" Height="35px" OnClick="btnRegistrarUsuario_Click" />
+                           <asp:Button ID="btnRegistrarUsuario" runat="server" Text="Registrar usuario" Height="35px" OnClick="btnRegistrarUsuario_Click" CssClass="boton2" />
                     </p>   
                 </td>
 

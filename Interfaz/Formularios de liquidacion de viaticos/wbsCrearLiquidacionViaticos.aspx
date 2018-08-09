@@ -9,11 +9,13 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        <link href="../Estilos/estilosboton.css" rel="stylesheet" />
+        <link href="../Estilos/estilostxt.css" rel="stylesheet" />
      <div>
         <table style="width: 100%;">
            
            <tr>
-                <td colspan="2"><asp:Button ID="btnVolver" runat="server" Text="Volver" Height="34px" Width="77px" OnClick="btnVolver_Click" />
+                <td colspan="2"><asp:Button ID="btnVolver" runat="server" Text="Volver" Height="34px" Width="77px" OnClick="btnVolver_Click" CssClass="boton" />
                     <h1 align="center">Liquidacion de viaticos</h1>
                </td>
            </tr>
@@ -47,7 +49,7 @@
                          <asp:Label ID="lblMontoDesayunoSolicitado" runat="server" Text="Monto desayuno"></asp:Label>
                     </p>
                      <p  align="center">
-                         <asp:TextBox ID="txtMontoDesayunoSolicitado" runat="server" ReadOnly="True"></asp:TextBox>
+                         <asp:TextBox ID="txtMontoDesayunoSolicitado" runat="server" ReadOnly="True" CssClass="txtFormulario"></asp:TextBox>
                     </p>
                 </td>
 
@@ -56,7 +58,7 @@
                          <asp:Label ID="lblMontoDesatunoGastado" runat="server" Text="Monto desayuno"></asp:Label>
                     </p>
                      <p  align="center">
-                         <asp:TextBox ID="txtMontoDesatunoGastado" runat="server"></asp:TextBox>
+                         <asp:TextBox ID="txtMontoDesatunoGastado" runat="server" CssClass="txtFormulario"></asp:TextBox>
                     </p>
                 </td>
            </tr>
@@ -70,7 +72,7 @@
                          <asp:Label ID="lblMontoAlmuerzoSolicitado" runat="server" Text="Monto Almuerzo"></asp:Label>
                     </p>
                      <p  align="center">
-                         <asp:TextBox ID="txtMontoAlmuerzoSolicitado" runat="server" ReadOnly="True"></asp:TextBox>
+                         <asp:TextBox ID="txtMontoAlmuerzoSolicitado" runat="server" ReadOnly="True" CssClass="txtFormulario"></asp:TextBox>
                     </p>
                 </td>
 
@@ -79,7 +81,7 @@
                          <asp:Label ID="lblMontoAlmuerzoGastado" runat="server" Text="Monto Almuerzo"></asp:Label>
                     </p>
                      <p  align="center">
-                         <asp:TextBox ID="txtMontoAlmuerzoGastado" runat="server"></asp:TextBox>
+                         <asp:TextBox ID="txtMontoAlmuerzoGastado" runat="server" CssClass="txtFormulario"></asp:TextBox>
                     </p>
                 </td>
            </tr>
@@ -93,7 +95,7 @@
                          <asp:Label ID="lblMontoCenaSolicitado" runat="server" Text="Monto cena"></asp:Label>
                     </p>
                      <p  align="center">
-                         <asp:TextBox ID="txtMontoCenaSolicitado" runat="server" ReadOnly="True"></asp:TextBox>
+                         <asp:TextBox ID="txtMontoCenaSolicitado" runat="server" ReadOnly="True" CssClass="txtFormulario"></asp:TextBox>
                     </p>
                 </td>
 
@@ -102,7 +104,7 @@
                          <asp:Label ID="lblMontoCenaGastado" runat="server" Text="Monto cena"></asp:Label>
                     </p>
                      <p  align="center">
-                         <asp:TextBox ID="txtMontoCenaGastado" runat="server"></asp:TextBox>
+                         <asp:TextBox ID="txtMontoCenaGastado" runat="server" CssClass="txtFormulario"></asp:TextBox>
                     </p>
                 </td>
            </tr>
@@ -116,7 +118,7 @@
                          <asp:Label ID="lblMontoHospedajeSolicitado" runat="server" Text="Monto hospedaje"></asp:Label>
                     </p>
                      <p  align="center">
-                         <asp:TextBox ID="txtMontoHospedajeSolicitado" runat="server" ReadOnly="True"></asp:TextBox>
+                         <asp:TextBox ID="txtMontoHospedajeSolicitado" runat="server" ReadOnly="True" CssClass="txtFormulario"></asp:TextBox>
                     </p>
                 </td>
 
@@ -125,7 +127,7 @@
                          <asp:Label ID="lblMontoHospedajeGastado" runat="server" Text="Monto hospedaje"></asp:Label>
                     </p>
                      <p  align="center">
-                         <asp:TextBox ID="txtMontoHospedajeGastado" runat="server"></asp:TextBox>
+                         <asp:TextBox ID="txtMontoHospedajeGastado" runat="server" CssClass="txtFormulario"></asp:TextBox>
                     </p>
                 </td>
            </tr>
@@ -139,7 +141,7 @@
                          <asp:Label ID="lblMontoPasajeSolicitado" runat="server" Text="Monto pasaje"></asp:Label>
                     </p>
                      <p  align="center">
-                         <asp:TextBox ID="txtMontoPasajeSolicitado" runat="server" ReadOnly="True"></asp:TextBox>
+                         <asp:TextBox ID="txtMontoPasajeSolicitado" runat="server" ReadOnly="True" CssClass="txtFormulario"></asp:TextBox>
                     </p>
                 </td>
 
@@ -148,7 +150,7 @@
                          <asp:Label ID="lblMontoPasajeGastado" runat="server" Text="Monto pasaje"></asp:Label>
                     </p>
                      <p  align="center">
-                         <asp:TextBox ID="txtMontoPasajeGastado" runat="server"></asp:TextBox>
+                         <asp:TextBox ID="txtMontoPasajeGastado" runat="server" CssClass="txtFormulario"></asp:TextBox>
                     </p>
                 </td>
            </tr>
@@ -159,7 +161,7 @@
             <tr>
                 <td colspan="2">     
                  <p align="center">
-                           <asp:Button ID="btnGenerarOrden" runat="server" Text="Enviar liquidacion" Height="35px" OnClick="btnGenerarOrden_Click" />
+                           <asp:Button ID="btnGenerarOrden" runat="server" Text="Enviar liquidacion" Height="35px" OnClick="btnGenerarOrden_Click" CssClass="boton2"/>
                     </p>   
                 </td>
 

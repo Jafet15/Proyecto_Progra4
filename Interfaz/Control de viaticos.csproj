@@ -98,15 +98,17 @@
     <Content Include="Estilos\estilosboton.css" />
     <Content Include="Estilos\FrontEnd.css" />
     <Content Include="Estilos\menu.css" />
+    <Content Include="Estilos\estilostxt.css" />
     <Content Include="Formularios de liquidacion de viaticos\wbsOpcionesLiquidacionViaticos.aspx" />
     <Content Include="Formularios de liquidacion de viaticos\wbsActualizarLiquidacionViaticos.aspx" />
     <Content Include="Formularios de liquidacion de viaticos\wbsConsultarLiquidacionFuncionario.aspx" />
     <Content Include="Formularios de liquidacion de viaticos\wbsConsultarLiquidacionJefatura.aspx" />
     <Content Include="Formularios de liquidacion de viaticos\wbsCrearLiquidacionViaticos.aspx" />
     <Content Include="Formularios de liquidacion de viaticos\wbsValidarLiquidacion.aspx" />
+    <Content Include="Formularios de orden de viaticos\wbsConsultarOrdenViaticosFuncionario.aspx" />
     <Content Include="Formularios de orden de viaticos\wbsOpcionesOrdenViaticos.aspx" />
     <Content Include="Formularios de orden de viaticos\wbsActualizarOrdenViaticos.aspx" />
-    <Content Include="Formularios de orden de viaticos\wbsConsultarOrdenViaticos.aspx" />
+    <Content Include="Formularios de orden de viaticos\wbsConsultarOrdenViaticosJefatura.aspx" />
     <Content Include="Formularios de orden de viaticos\wbsOrdenDeViaticos.aspx" />
     <Content Include="Formularios de parametrizaciones\wbsActualizarTarifasAutobus.aspx" />
     <Content Include="Formularios de parametrizaciones\wbsActualizarTarifasViaticos.aspx" />
@@ -131,6 +133,7 @@
     <Content Include="Imagenes\logo2.png" />
     <Content Include="Login y menu\Menu.aspx" />
     <Content Include="Formularios de solicitud de viaticos\wbsOpcionesSolicitudViaticos.aspx" />
+    <Content Include="Login y menu\wbsRecuperar.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -194,6 +197,13 @@
     <Compile Include="Formularios de liquidacion de viaticos\wbsValidarLiquidacion.aspx.designer.cs">
       <DependentUpon>wbsValidarLiquidacion.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Formularios de orden de viaticos\wbsConsultarOrdenViaticosFuncionario.aspx.cs">
+      <DependentUpon>wbsConsultarOrdenViaticosFuncionario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formularios de orden de viaticos\wbsConsultarOrdenViaticosFuncionario.aspx.designer.cs">
+      <DependentUpon>wbsConsultarOrdenViaticosFuncionario.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Formularios de orden de viaticos\wbsOpcionesOrdenViaticos.aspx.cs">
       <DependentUpon>wbsOpcionesOrdenViaticos.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -208,12 +218,12 @@
     <Compile Include="Formularios de orden de viaticos\wbsActualizarOrdenViaticos.aspx.designer.cs">
       <DependentUpon>wbsActualizarOrdenViaticos.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Formularios de orden de viaticos\wbsConsultarOrdenViaticos.aspx.cs">
-      <DependentUpon>wbsConsultarOrdenViaticos.aspx</DependentUpon>
+    <Compile Include="Formularios de orden de viaticos\wbsConsultarOrdenViaticosJefatura.aspx.cs">
+      <DependentUpon>wbsConsultarOrdenViaticosJefatura.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Formularios de orden de viaticos\wbsConsultarOrdenViaticos.aspx.designer.cs">
-      <DependentUpon>wbsConsultarOrdenViaticos.aspx</DependentUpon>
+    <Compile Include="Formularios de orden de viaticos\wbsConsultarOrdenViaticosJefatura.aspx.designer.cs">
+      <DependentUpon>wbsConsultarOrdenViaticosJefatura.aspx</DependentUpon>
     </Compile>
     <Compile Include="Formularios de orden de viaticos\wbsOrdenDeViaticos.aspx.cs">
       <DependentUpon>wbsOrdenDeViaticos.aspx</DependentUpon>
@@ -362,6 +372,13 @@
     <Compile Include="Formularios de solicitud de viaticos\wbsOpcionesSolicitudViaticos.aspx.designer.cs">
       <DependentUpon>wbsOpcionesSolicitudViaticos.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Login y menu\wbsRecuperar.aspx.cs">
+      <DependentUpon>wbsRecuperar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login y menu\wbsRecuperar.aspx.designer.cs">
+      <DependentUpon>wbsRecuperar.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Login y menu\wbsLogin.aspx.cs">
       <DependentUpon>wbsLogin.aspx</DependentUpon>
@@ -378,7 +395,12 @@
       <DependentUpon>wbsSolicitudDeViaticos.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{fbdedf5f-ae81-4eca-84a8-20c607dd427b}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

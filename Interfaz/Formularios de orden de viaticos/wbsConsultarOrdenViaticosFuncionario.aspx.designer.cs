@@ -7,10 +7,10 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace Control_de_viaticos.Formularios_de_liquidacion_de_viaticos {
+namespace Control_de_viaticos.Formularios_de_orden_de_viaticos {
     
     
-    public partial class wbsValidarLiquidacion {
+    public partial class wbsConsultarOrdenViaticosFuncionario {
         
         /// <summary>
         /// Control form1.
@@ -49,228 +49,147 @@ namespace Control_de_viaticos.Formularios_de_liquidacion_de_viaticos {
         protected global::System.Web.UI.WebControls.Label lblNombreGenerado;
         
         /// <summary>
-        /// Control lblIdLiquidacion.
+        /// Control lblNumeroTitulo.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblIdLiquidacion;
+        protected global::System.Web.UI.WebControls.Label lblNumeroTitulo;
         
         /// <summary>
-        /// Control txtIdLiquidacion.
+        /// Control lblNumeroDeConsecutivo.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtIdLiquidacion;
+        protected global::System.Web.UI.WebControls.Label lblNumeroDeConsecutivo;
         
         /// <summary>
-        /// Control btnVer.
+        /// Control gvwDetalleFuncionarios.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnVer;
+        protected global::System.Web.UI.WebControls.GridView gvwDetalleFuncionarios;
         
         /// <summary>
-        /// Control lblMontoDesayunoSolicitado.
+        /// Control gvwTotalizacionDeViaticos.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblMontoDesayunoSolicitado;
+        protected global::System.Web.UI.WebControls.GridView gvwTotalizacionDeViaticos;
         
         /// <summary>
-        /// Control txtMontoDesayunoSolicitado.
+        /// Control lblFechaElaboracionOrden.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtMontoDesayunoSolicitado;
+        protected global::System.Web.UI.WebControls.Label lblFechaElaboracionOrden;
         
         /// <summary>
-        /// Control lblMontoDesatunoGastado.
+        /// Control txtFechaElaboracionOrden.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblMontoDesatunoGastado;
+        protected global::System.Web.UI.WebControls.TextBox txtFechaElaboracionOrden;
         
         /// <summary>
-        /// Control txtMontoDesatunoGastado.
+        /// Control lblFechaInicio.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtMontoDesatunoGastado;
+        protected global::System.Web.UI.WebControls.Label lblFechaInicio;
         
         /// <summary>
-        /// Control lblMontoAlmuerzoSolicitado.
+        /// Control txtFechaInicio.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblMontoAlmuerzoSolicitado;
+        protected global::System.Web.UI.WebControls.TextBox txtFechaInicio;
         
         /// <summary>
-        /// Control txtMontoAlmuerzoSolicitado.
+        /// Control lblFechaFinal.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtMontoAlmuerzoSolicitado;
+        protected global::System.Web.UI.WebControls.Label lblFechaFinal;
         
         /// <summary>
-        /// Control lblMontoAlmuerzoGastado.
+        /// Control txtFechaFinal.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblMontoAlmuerzoGastado;
+        protected global::System.Web.UI.WebControls.TextBox txtFechaFinal;
         
         /// <summary>
-        /// Control txtMontoAlmuerzoGastado.
+        /// Control lblDestino.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtMontoAlmuerzoGastado;
+        protected global::System.Web.UI.WebControls.Label lblDestino;
         
         /// <summary>
-        /// Control lblMontoCenaSolicitado.
+        /// Control txtDestino.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblMontoCenaSolicitado;
+        protected global::System.Web.UI.WebControls.TextBox txtDestino;
         
         /// <summary>
-        /// Control txtMontoCenaSolicitado.
+        /// Control lblJustificacion.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtMontoCenaSolicitado;
+        protected global::System.Web.UI.WebControls.Label lblJustificacion;
         
         /// <summary>
-        /// Control lblMontoCenaGastado.
+        /// Control txtJustificacion.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblMontoCenaGastado;
+        protected global::System.Web.UI.WebControls.TextBox txtJustificacion;
         
         /// <summary>
-        /// Control txtMontoCenaGastado.
+        /// Control lblMontoTotal.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtMontoCenaGastado;
+        protected global::System.Web.UI.WebControls.Label lblMontoTotal;
         
         /// <summary>
-        /// Control lblMontoHospedajeSolicitado.
+        /// Control txtMontoTotal.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblMontoHospedajeSolicitado;
-        
-        /// <summary>
-        /// Control txtMontoHospedajeSolicitado.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtMontoHospedajeSolicitado;
-        
-        /// <summary>
-        /// Control lblMontoHospedajeGastado.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblMontoHospedajeGastado;
-        
-        /// <summary>
-        /// Control txtMontoHospedajeGastado.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtMontoHospedajeGastado;
-        
-        /// <summary>
-        /// Control lblMontoPasajeSolicitado.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblMontoPasajeSolicitado;
-        
-        /// <summary>
-        /// Control txtMontoPasajeSolicitado.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtMontoPasajeSolicitado;
-        
-        /// <summary>
-        /// Control lblMontoPasajeGastado.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblMontoPasajeGastado;
-        
-        /// <summary>
-        /// Control txtMontoPasajeGastado.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtMontoPasajeGastado;
-        
-        /// <summary>
-        /// Control btnValidarLiquidacion.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnValidarLiquidacion;
-        
-        /// <summary>
-        /// Control btnRechazarLiquidacion.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnRechazarLiquidacion;
+        protected global::System.Web.UI.WebControls.TextBox txtMontoTotal;
     }
 }

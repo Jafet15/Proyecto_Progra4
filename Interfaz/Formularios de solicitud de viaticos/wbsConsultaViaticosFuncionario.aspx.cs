@@ -18,5 +18,10 @@ namespace Control_de_viaticos.Formularios_de_solicitud_de_viaticos
         {
             Response.Redirect(@"~/Formularios%20de%20solicitud%20de%20viaticos/wbsOpcionesSolicitudViaticos.aspx");
         }
+
+        protected void ddCanton_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

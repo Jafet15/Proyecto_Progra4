@@ -9,10 +9,12 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        <link href="../Estilos/estilosboton.css" rel="stylesheet" />
+        <link href="../Estilos/estilostxt.css" rel="stylesheet" />
    <div>
         <table style="width: 100%;">
             <tr>
-                <td colspan="3"><asp:Button ID="btnVolver" runat="server" Text="Volver" Height="34px" Width="77px" OnClick="btnVolver_Click" />
+                <td colspan="3"><asp:Button ID="btnVolver" runat="server" Text="Volver" Height="34px" Width="77px" OnClick="btnVolver_Click" CssClass="boton" />
                     <h1 align="center"> Actualizar solicitud de viaticos</h1>
                </td>
            </tr>
@@ -33,7 +35,7 @@
                          <asp:Label ID="lblFechaSalida" runat="server" Text="Fecha de salida"></asp:Label>
                     </p>
                      <p  align="center">
-                         <asp:TextBox ID="txtFechaSalida" runat="server"></asp:TextBox>
+                         <asp:TextBox ID="txtFechaSalida" runat="server" CssClass="txtFormulario"></asp:TextBox>
                     </p>
                 </td>
                  <td>
@@ -41,7 +43,7 @@
                          <asp:Label ID="lblFechaRegreso" runat="server" Text="Fecha de regreso"></asp:Label>
                     </p>
                      <p  align="center">
-                         <asp:TextBox ID="txtFechaRegreso" runat="server"></asp:TextBox>
+                         <asp:TextBox ID="txtFechaRegreso" runat="server" CssClass="txtFormulario"></asp:TextBox>
                     </p>
                 </td>
                 <td>
@@ -50,7 +52,7 @@
                          <asp:Label ID="lblFechaReciboViaticos" runat="server" Text="Fecha para recibir viaticos"></asp:Label>
                     </p>
                      <p  align="center">
-                         <asp:TextBox ID="txtFechaReciboDeViaticos" runat="server"></asp:TextBox>
+                         <asp:TextBox ID="txtFechaReciboDeViaticos" runat="server" CssClass="txtFormulario"></asp:TextBox>
                     </p>
                 </td>
            </tr>
@@ -60,7 +62,7 @@
                          <asp:Label ID="lblFechaEntradaHotel" runat="server" Text="Fecha de entrada al hotel"></asp:Label>
                     </p>
                      <p  align="center">
-                         <asp:TextBox ID="txtFechaEntradaHotel" runat="server"></asp:TextBox>
+                         <asp:TextBox ID="txtFechaEntradaHotel" runat="server" CssClass="txtFormulario"></asp:TextBox>
                     </p>
                </td>
                 <td>
@@ -68,7 +70,7 @@
                          <asp:Label ID="Label5" runat="server" Text="Fecha de salida al hotel"></asp:Label>
                     </p>
                      <p  align="center">
-                         <asp:TextBox ID="txtFechaSalidaHotel" runat="server"></asp:TextBox>
+                         <asp:TextBox ID="txtFechaSalidaHotel" runat="server" CssClass="txtFormulario"></asp:TextBox>
                     </p>
                </td>
                
@@ -79,7 +81,7 @@
                           <asp:Label ID="lblHoraSalida" runat="server" Text="Hora de salida"></asp:Label>
                     </p>
                      <p  align="center">
-                          <asp:TextBox ID="txtHoraSalida" runat="server"></asp:TextBox>
+                          <asp:TextBox ID="txtHoraSalida" runat="server" CssClass="txtFormulario"> </asp:TextBox>
                     </p>
                </td>
                 <td>
@@ -87,7 +89,7 @@
                           <asp:Label ID="lblHoraRegreso" runat="server" Text="Hora de regreso"></asp:Label>
                     </p>
                      <p  align="center">
-                          <asp:TextBox ID="txtHoraRegreso" runat="server"></asp:TextBox>
+                          <asp:TextBox ID="txtHoraRegreso" runat="server" CssClass="txtFormulario"></asp:TextBox>
                     </p>
                 </td>              
            </tr>
@@ -103,7 +105,7 @@
                           <asp:Label ID="lblDestino" runat="server" Text="Destino"></asp:Label>
                    </p>
                     <p  align="center">
-                           <asp:TextBox ID="txtDestino" runat="server"></asp:TextBox>
+                           <asp:TextBox ID="txtDestino" runat="server" CssClass="txtFormulario"></asp:TextBox>
                    </p>
                  </td>
            </tr>
@@ -113,7 +115,7 @@
                         <asp:Label ID="lblJustificacion" runat="server" Text="Justificacion:     " height="60px"></asp:Label>
                        
                     <br />
-                          <asp:TextBox ID="txtJustificacion" runat="server" Height="100px" Width="455px" TextMode="MultiLine"></asp:TextBox>
+                          <asp:TextBox ID="txtJustificacion" runat="server" Height="100px" Width="455px" TextMode="MultiLine" CssClass="txtFormulario"></asp:TextBox>
                           
                    </p>
 
@@ -131,7 +133,7 @@
                         <asp:Label ID="lblCantidadDesayunos" runat="server" Text="Cantidad de desayunos"></asp:Label>
                     </p>
                     <p  align="center">
-                        <asp:TextBox ID="txtCantidadDesayunos" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="txtCantidadDesayunos" runat="server" CssClass="txtFormulario"></asp:TextBox>
                     </p>
 
                 </td>
@@ -140,14 +142,14 @@
                        <asp:Label ID="lblCantidadAlmuerzos" runat="server" Text="Cantidad de almuerzos"></asp:Label>
                     </p>
                      <p  align="center">
-                       <asp:TextBox ID="txtCantidadAlmuerzos" runat="server"></asp:TextBox>
+                       <asp:TextBox ID="txtCantidadAlmuerzos" runat="server" CssClass="txtFormulario"></asp:TextBox>
                     </p>
                 <td>
                      <p align="center">
                        <asp:Label ID="lblCantidadCenas" runat="server" Text="Cantidad de cenas"></asp:Label>
                     </p>
                      <p  align="center">
-                       <asp:TextBox ID="txtCantidadCenas" runat="server"></asp:TextBox>
+                       <asp:TextBox ID="txtCantidadCenas" runat="server" CssClass="txtFormulario"></asp:TextBox>
                     </p>
            </tr>
             <tr>
@@ -156,14 +158,14 @@
                        <asp:Label ID="lblCantidadPasajes" runat="server" Text="Cantidad de pasajes"></asp:Label>
                     </p>
                      <p  align="center">
-                       <asp:TextBox ID="txtCantidadPasajes" runat="server"></asp:TextBox>
+                       <asp:TextBox ID="txtCantidadPasajes" runat="server" CssClass="txtFormulario"></asp:TextBox>
                     </p>
                 <td>
                      <p align="center">
                        <asp:Label ID="lblCantidadViaticos" runat="server" Text="Cantidad de viaticos"></asp:Label>
                     </p>
                      <p  align="center">
-                       <asp:TextBox ID="txtCantidadViaticos" runat="server"></asp:TextBox>
+                       <asp:TextBox ID="txtCantidadViaticos" runat="server" CssClass="txtFormulario"></asp:TextBox>
                     </p>
                 </td>
                  <td>
@@ -171,7 +173,7 @@
                        <asp:Label ID="lblCantidadHospedajes" runat="server" Text="Cantidad de hospedajes"></asp:Label>
                     </p>
                      <p  align="center">
-                       <asp:TextBox ID="txtCantidadHospedajes" runat="server"></asp:TextBox>
+                       <asp:TextBox ID="txtCantidadHospedajes" runat="server" CssClass="txtFormulario"></asp:TextBox>
                     </p>
                 </td>
            </tr>
@@ -186,7 +188,7 @@
                          <asp:Label ID="lblMontoDesayuno" runat="server" Text="Monto de desayunos"></asp:Label>
                      </p>
                      <p  align="center">
-                         <asp:TextBox ID="txtMontoDesayuno" runat="server"></asp:TextBox>
+                         <asp:TextBox ID="txtMontoDesayuno" runat="server" CssClass="txtFormulario"></asp:TextBox>
                     </p>
                 </td>
                 <td>
@@ -194,7 +196,7 @@
                          <asp:Label ID="lblMontoAlmuerzos" runat="server" Text="Monto de almuerzos"></asp:Label>
                     </p>
                      <p  align="center">
-                         <asp:TextBox ID="txtMontoAlmuerzo" runat="server"></asp:TextBox>
+                         <asp:TextBox ID="txtMontoAlmuerzo" runat="server" CssClass="txtFormulario"></asp:TextBox>
                     </p>
                 </td>
                 <td>
@@ -202,7 +204,7 @@
                          <asp:Label ID="lblMontoCena" runat="server" Text="Monto de cenas"></asp:Label>
                     </p>
                      <p  align="center">
-                         <asp:TextBox ID="txtMontoCena" runat="server"></asp:TextBox>
+                         <asp:TextBox ID="txtMontoCena" runat="server" CssClass="txtFormulario"></asp:TextBox>
                     </p>
                 </td>
            </tr>
@@ -212,7 +214,7 @@
                          <asp:Label ID="lblMontoPasaje" runat="server" Text="Monto de pasajes"></asp:Label>
                     </p>
                      <p  align="center">
-                         <asp:TextBox ID="txtMontoPasajes" runat="server"></asp:TextBox>
+                         <asp:TextBox ID="txtMontoPasajes" runat="server" CssClass="txtFormulario"></asp:TextBox>
                     </p>
                 </td>
                  <td>
@@ -220,7 +222,7 @@
                          <asp:Label ID="lblMontoHospedajes" runat="server" Text="Monto de hospedajes"></asp:Label>
                     </p>
                      <p  align="center">
-                         <asp:TextBox ID="txtMontoHospedajes" runat="server"></asp:TextBox>
+                         <asp:TextBox ID="txtMontoHospedajes" runat="server" CssClass="txtFormulario"></asp:TextBox>
                     </p>
                 </td>               
            </tr>
@@ -235,7 +237,7 @@
                           <asp:Label ID="lblTipoTransporte" runat="server" Text="Tipo de transporte"></asp:Label>
                     </p>
                      <p  align="center">
-                    <asp:DropDownList ID="ddTipoTransporte" runat="server">
+                    <asp:DropDownList ID="ddTipoTransporte" runat="server" CssClass="txtFormulario">
                          </asp:DropDownList>
                     </p>
                 </td>
@@ -244,7 +246,7 @@
                         <asp:Label ID="lblProvincia" runat="server" Text="Provincia"></asp:Label>
                     </p>
                      <p  align="center">
-                     <asp:DropDownList ID="ddprovincia" runat="server">
+                     <asp:DropDownList ID="ddprovincia" runat="server" CssClass="txtFormulario">
                          </asp:DropDownList>
                     </p>
                 </td>
@@ -253,7 +255,7 @@
                          <asp:Label ID="lblCanton" runat="server" Text="Canton"></asp:Label>
                     </p>
                      <p  align="center">
-                       <asp:DropDownList ID="ddCanton" runat="server">
+                       <asp:DropDownList ID="ddCanton" runat="server" CssClass="txtFormulario">
                          </asp:DropDownList>
                     </p>
                 </td>
@@ -270,8 +272,8 @@
                         <asp:Label ID="lblNombreColaborador" runat="server" Text="Nombre del colaborador"></asp:Label>
                     </p>
                      <p  align="center">
-                        <asp:TextBox ID="txtNombreColaborador" runat="server"></asp:TextBox>
-                         <asp:Button ID="btnVer" runat="server" Text="Ver" Height="26px" Width="36px" />
+                        <asp:TextBox ID="txtNombreColaborador" runat="server" CssClass="txtFormulario"></asp:TextBox>
+                         <asp:Button ID="btnVer" runat="server" Text="Ver" Height="26px" Width="36px" CssClass="boton" />
                     </p>
                 </td>
            </tr>
@@ -287,7 +289,7 @@
                          <asp:Label ID="lblCantidadDesayunosColaborador" runat="server" Text="Cantidad de desayunos"></asp:Label>
                     </p>
                      <p  align="center">
-                         <asp:TextBox ID="txtCantidadDesayunoColaborador" runat="server"></asp:TextBox>
+                         <asp:TextBox ID="txtCantidadDesayunoColaborador" runat="server" CssClass="txtFormulario"></asp:TextBox>
                     </p>
                 </td>
                 <td>
@@ -295,7 +297,7 @@
                          <asp:Label ID="lblCantidadAlmuerzosColaborador" runat="server" Text="Cantidad de almuerzos"></asp:Label>
                     </p>
                      <p  align="center">
-                         <asp:TextBox ID="txtCantidadAlmuerzoColaborador" runat="server"></asp:TextBox>
+                         <asp:TextBox ID="txtCantidadAlmuerzoColaborador" runat="server" CssClass="txtFormulario"></asp:TextBox>
                     </p>
                 </td>
                 <td>
@@ -303,7 +305,7 @@
                          <asp:Label ID="lblCantidadCenasColaborador" runat="server" Text="Cantidad de cenas"></asp:Label>
                    </p>
                     <p  align="center">
-                         <asp:TextBox ID="txtCantidadCenaColaborador" runat="server"></asp:TextBox>
+                         <asp:TextBox ID="txtCantidadCenaColaborador" runat="server" CssClass="txtFormulario"></asp:TextBox>
                    </p>
                 </td>
            </tr>
@@ -313,7 +315,7 @@
                          <asp:Label ID="lblCantidadHospedajesColaborador" runat="server" Text="Cantidad de hospedajes"></asp:Label>
                    </p>
                     <p  align="center">
-                         <asp:TextBox ID="txtCantidadHospedajesColaborador" runat="server"></asp:TextBox>
+                         <asp:TextBox ID="txtCantidadHospedajesColaborador" runat="server" CssClass="txtFormulario"></asp:TextBox>
                    </p>
                 </td>
                 <td>
@@ -321,7 +323,7 @@
                          <asp:Label ID="lblCantidadPasajesColaborador" runat="server" Text="Cantidad de pasajes"></asp:Label>
                    </p>
                     <p  align="center">
-                         <asp:TextBox ID="txtCantidadPasajesColaborador" runat="server"></asp:TextBox>
+                         <asp:TextBox ID="txtCantidadPasajesColaborador" runat="server" CssClass="txtFormulario"></asp:TextBox>
                    </p>
                 </td>
            </tr>
@@ -336,7 +338,7 @@
                          <asp:Label ID="lblMontoDesayunoColaborador" runat="server" Text="Monto de desayunos"></asp:Label>
                     </p>
                      <p  align="center">
-                         <asp:TextBox ID="txtMontoDesayunoColaborador" runat="server"></asp:TextBox>
+                         <asp:TextBox ID="txtMontoDesayunoColaborador" runat="server" CssClass="txtFormulario"></asp:TextBox>
                     </p>
                 </td>
                 <td>
@@ -344,7 +346,7 @@
                          <asp:Label ID="lblMontoAlmuerzoColaborador" runat="server" Text="Monto de almuerzos"></asp:Label>
                     </p>
                      <p  align="center">
-                         <asp:TextBox ID="txtMontoAlmuerzoColaborador" runat="server"></asp:TextBox>
+                         <asp:TextBox ID="txtMontoAlmuerzoColaborador" runat="server" CssClass="txtFormulario"></asp:TextBox>
                     </p>
                </td>
                 <td>
@@ -352,7 +354,7 @@
                          <asp:Label ID="lblMontoCenaColaborador" runat="server" Text="Monto de cenas"></asp:Label>
                     </p>
                      <p  align="center">
-                         <asp:TextBox ID="txtMontoCenaColaborador" runat="server"></asp:TextBox>
+                         <asp:TextBox ID="txtMontoCenaColaborador" runat="server" CssClass="txtFormulario"></asp:TextBox>
                     </p>
                 </td>
            </tr>
@@ -362,7 +364,7 @@
                          <asp:Label ID="lblMontoPasajesColaborador" runat="server" Text="Monto de pasajes"></asp:Label>
                     </p>
                      <p  align="center">
-                         <asp:TextBox ID="txtMontoPasajeColaborador" runat="server"></asp:TextBox>
+                         <asp:TextBox ID="txtMontoPasajeColaborador" runat="server" CssClass="txtFormulario"></asp:TextBox>
                     </p>
                 </td>
                 <td>
@@ -370,11 +372,11 @@
                          <asp:Label ID="lblMontoHospedajeColaborador" runat="server" Text="Monto de hospedajes"></asp:Label>
                     </p>
                      <p  align="center">
-                         <asp:TextBox ID="txtMontoHospedajeColaborador" runat="server"></asp:TextBox>
+                         <asp:TextBox ID="txtMontoHospedajeColaborador" runat="server" CssClass="txtFormulario"></asp:TextBox>
                     </p>
                 </td>
                 <td>
-                    <p align="center"> <asp:Button ID="btnActualizarColaborador" runat="server" Text="Actualizar Colaborador" /> </p>
+                    <p align="center"> <asp:Button ID="btnActualizarColaborador" runat="server" Text="Actualizar Colaborador" CssClass="boton" /> </p>
                     
 
                 </td>
@@ -384,7 +386,7 @@
                 <td colspan="3" >
                        
                         <p align="center">
-                           <asp:Button ID="btnActualizarViaticos" runat="server" Text="Actualizar viaticos" Height="35px" />
+                           <asp:Button ID="btnActualizarViaticos" runat="server" Text="Actualizar viaticos" Height="35px" CssClass="boton2" />
                        </p>   
                 </td>
            </tr>

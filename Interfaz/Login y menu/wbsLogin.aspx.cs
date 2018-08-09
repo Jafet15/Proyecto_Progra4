@@ -14,10 +14,17 @@ namespace Control_de_viaticos
         {
 
         }
-        protected void btnSolicitud_Click(object sender, EventArgs e)
+     
+   
+
+        protected void btnAutenticar_Click1(object sender, EventArgs e)
         {
-            Response.Redirect(@"~/Login%20y%20menu/wbsMenu.aspx");
-            
+            Response.Redirect(@"~/Login%20y%20menu/Menu.aspx");
+        }
+
+        protected void btnRecuperar_Click(object sender, EventArgs e)
+        {
+            Response.Redirect(@"~/Login%20y%20menu/wbsRecuperar.aspx");
         }
     }
 }

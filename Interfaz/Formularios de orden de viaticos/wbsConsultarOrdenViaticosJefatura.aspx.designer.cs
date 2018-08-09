@@ -49,6 +49,15 @@ namespace Control_de_viaticos.Formularios_de_orden_de_viaticos {
         protected global::System.Web.UI.WebControls.TextBox txtNumOrden;
         
         /// <summary>
+        /// Control btnVer.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnVer;
+        
+        /// <summary>
         /// Control lblNombre.
         /// </summary>
         /// <remarks>

@@ -1,4 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="wbsLogin.aspx.cs" Inherits="Control_de_viaticos.wbsLogin" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="wbsRecuperar.aspx.cs" Inherits="Control_de_viaticos.Login_y_menu.wbsRecuperar" %>
+
 <link rel="stylesheet" href="Formatos/Formatos.css" type="text/css" />
 <!DOCTYPE html>
 <html>
@@ -8,6 +9,7 @@
 	<title>Sistema de Viaticos - P4</title>
 	<link rel="stylesheet" type="text/css" href="csslogin VIATICOS.css">
 </head>
+
 <body id = "cuerpo">
     <form runat="server">
 	<header id = "cabeza">
@@ -22,23 +24,16 @@
 				<input class="txt" id = "textoUser" type="text" name=" txtUsuario">	
 			</blockquote>
 			<blockquote id = "clave">
-				<p class = "lbl" id = "lblClave">Contraseña:</p>
+				<p class = "lbl" id = "lblClave">Correo:</p>
 				<input class="txt" id = "textoPass" type="text" name=" txtClave">	
 			</blockquote>
 
 		</article>
-		<article id = "informacion">
-			<p>
-				Para iniciar sesión, ingrese su nombre de
-				usuario y contraseña, en caso de no recordar la contraseña
-				presione el boton "Olvide Contraseña"
-			</p>
-		</article>
+	
 	</section>
 	<section id = "opciones">
-
-        <asp:Button ID="btnAutenticar" runat="server" Text="Inicio sesion" OnClick="btnAutenticar_Click1" />
-        <asp:Button ID="btnRecuperar" runat="server" Text="Olvide contraseña" OnClick="btnRecuperar_Click" />
+	
+        <asp:Button ID="btnAutenticar"   runat="server" Text="Enviar" OnClick="btnAutenticar_Click" />
 	</section>
 </form>
 </body>

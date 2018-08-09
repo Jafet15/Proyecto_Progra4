@@ -1,4 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="wbsConsultarOrdenViaticos.aspx.cs" Inherits="Control_de_viaticos.Formularios_de_orden_de_viaticos.wbsConsultarOrdenViaticos" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="wbsConsultarOrdenViaticosFuncionario.aspx.cs" Inherits="Control_de_viaticos.Formularios_de_orden_de_viaticos.wbsConsultarOrdenViaticosFuncionario" %>
+
+<!DOCTYPE html>
 
 <!DOCTYPE html>
 
@@ -6,25 +8,31 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
+    <style type="text/css">
+        .auto-style1 {
+            margin: 0px auto;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            border-radius: 20px;
+            cursor: pointer;
+            background-color: cornflowerblue;
+            color: white;
+        }
+    </style>
 </head>
 <body>
+    <link href="../Estilos/estilosboton.css" rel="stylesheet" />
+    <link href="../Estilos/estilostxt.css" rel="stylesheet" />
     <form id="form1" runat="server">
     <div>
         <table style="width: 100%;">
             <tr>
-                <td colspan="3"><asp:Button ID="btnVolver" runat="server" Text="Volver" Height="34px" Width="77px" OnClick="btnVolver_Click" />
+                <td colspan="3"><asp:Button ID="btnVolver" runat="server" Text="Volver" Height="34px" Width="77px" OnClick="btnVolver_Click" CssClass="boton" />
                     <h1 align="center"> Consultar orden de viaticos</h1>
                </td>
            </tr>
             <tr>
-                <td colspan="3" class="auto-style1">
-                      <p align="center">
-                         <asp:Label ID="lblNumeroOrden" runat="server" Text="Numero de orden"></asp:Label>
-                    </p>
-                     <p  align="center">
-                         <asp:TextBox ID="txtNumOrden" runat="server"></asp:TextBox>
-                    </p>
-               </td>
+               
            </tr>
             <tr>
                 <td     
@@ -102,7 +110,7 @@
                          <asp:Label ID="lblFechaElaboracionOrden" runat="server" Text="Fecha de elaboracion"></asp:Label>
                     </p>
                      <p  align="center">
-                         <asp:TextBox ID="txtFechaElaboracionOrden" runat="server" ReadOnly="True"></asp:TextBox>
+                         <asp:TextBox ID="txtFechaElaboracionOrden" runat="server" ReadOnly="True" CssClass="txtFormulario"></asp:TextBox>
                     </p>
                 </td>
                  <td>
@@ -110,7 +118,7 @@
                          <asp:Label ID="lblFechaInicio" runat="server" Text="Fecha de inicio"></asp:Label>
                     </p>
                      <p  align="center">
-                         <asp:TextBox ID="txtFechaInicio" runat="server" ReadOnly="True"></asp:TextBox>
+                         <asp:TextBox ID="txtFechaInicio" runat="server" ReadOnly="True" CssClass="txtFormulario"></asp:TextBox>
                     </p>
                 </td>
                 <td>
@@ -119,7 +127,7 @@
                          <asp:Label ID="lblFechaFinal" runat="server" Text="Fecha final"></asp:Label>
                     </p>
                      <p  align="center">
-                         <asp:TextBox ID="txtFechaFinal" runat="server" ReadOnly="True"></asp:TextBox>
+                         <asp:TextBox ID="txtFechaFinal" runat="server" ReadOnly="True" CssClass="txtFormulario"></asp:TextBox>
                     </p>
                 </td>
            </tr>
@@ -136,7 +144,7 @@
                           <asp:Label ID="lblDestino" runat="server" Text="Destino"></asp:Label>
                    </p>
                     <p  align="center">
-                           <asp:TextBox ID="txtDestino" runat="server" ReadOnly="True"></asp:TextBox>
+                           <asp:TextBox ID="txtDestino" runat="server" ReadOnly="True" CssClass="txtFormulario"></asp:TextBox>
                    </p>
                  </td>
            </tr>
@@ -146,7 +154,7 @@
                         <asp:Label ID="lblJustificacion" runat="server" Text="Justificacion:     " height="60px"></asp:Label>
                        
                     <br />
-                          <asp:TextBox ID="txtJustificacion" runat="server" Height="100px" Width="455px" TextMode="MultiLine" ReadOnly="True"></asp:TextBox>
+                          <asp:TextBox ID="txtJustificacion" runat="server" Height="100px" Width="455px" TextMode="MultiLine" ReadOnly="True" CssClass="txtFormulario"></asp:TextBox>
                           
                    </p>
 
@@ -160,7 +168,7 @@
                          <asp:Label ID="lblMontoTotal" runat="server" Text="Monto total"></asp:Label>
                     </p>
                      <p  align="center">
-                         <asp:TextBox ID="txtMontoTotal" runat="server" Width="188px"></asp:TextBox>
+                         <asp:TextBox ID="txtMontoTotal" runat="server" Width="188px" CssClass="txtFormulario"></asp:TextBox>
                     </p>
                 </td>
            </tr>

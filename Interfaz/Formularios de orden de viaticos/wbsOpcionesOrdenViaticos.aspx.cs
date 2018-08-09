@@ -16,7 +16,13 @@ namespace Control_de_viaticos.Formularios_de_orden_de_viaticos
 
         protected void btnConsultarOrden_Click(object sender, EventArgs e)
         {
-            Response.Redirect(@"~/Formularios%20de%20orden%20de%20viaticos/wbsConsultarOrdenViaticos.aspx");
+           if(true)
+            { Response.Redirect(@"~/Formularios%20de%20orden%20de%20viaticos/wbsConsultarOrdenViaticosFuncionario.aspx");
+            }
+           else
+            {
+
+            }
         }
 
         protected void btnConsultarViaticos_Click(object sender, EventArgs e)

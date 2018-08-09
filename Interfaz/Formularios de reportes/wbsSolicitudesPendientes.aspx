@@ -9,11 +9,13 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        <link href="../Estilos/estilosboton.css" rel="stylesheet" />
+        <link href="../Estilos/estilostxt.css" rel="stylesheet" />
     <div>
         <table style="width: 100%;">
            
            <tr>
-                <td colspan="3"><asp:Button ID="btnVolver" runat="server" Text="Volver" Height="34px" Width="77px" OnClick="btnVolver_Click" />
+                <td colspan="3"><asp:Button ID="btnVolver" runat="server" Text="Volver" Height="34px" Width="77px" OnClick="btnVolver_Click" CssClass="boton" />
                     <h1 align="center">Solicitudes pendientes de aprobar</h1>
                </td>
            </tr>
